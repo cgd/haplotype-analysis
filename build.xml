@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project
+    xmlns:ivy="antlib:org.apache.ivy.ant"
+    name="HAM Analysis"
+    default="dist"
+    basedir=".">
+    
+    <description>
+        the main build file for the HAM project
+    </description>
+    
+    <import file="build-properties.xml"/>
+    <import file="${common.build.dir}/build-common.xml"/>
+    
+</project>

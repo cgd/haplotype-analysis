@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0">
+    <info organisation="org.jax" module="haplotype-analysis" revision="1.0"/>
+    
+    <configurations>
+        <conf
+            name="compile"
+            description="dependencies needed to compile"/>
+        <conf
+            name="test"
+            extends="compile"
+            description="dependencies needed to test"/>
+    </configurations>
+
+    <publications>
+        <artifact name="haplotype-analysis" type="jar" ext="jar"/>
+    </publications>
+    
+    <dependencies>
+        <dependency
+            org="org.jax"
+            name="haplotype-inference"
+            rev="latest.integration"/>
+        <dependency
+            org="org.apache"
+            name="commons-math"
+            rev="latest.integration"/>
+        <dependency
+            org="org.apache"
+            name="commons-cli"
+            rev="latest.integration"/>
+        <dependency
+            org="org.apache"
+            name="commons-codec"
+            rev="latest.integration"/>
+        <dependency
+            org="org.jfree"
+            name="jfreechart"
+            rev="latest.integration"/>
+    </dependencies>
+    
+</ivy-module>
