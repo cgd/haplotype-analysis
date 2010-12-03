@@ -13,4 +13,11 @@
     <import file="build-properties.xml"/>
     <import file="${common.build.dir}/build-common.xml"/>
     
+    <target name="compile-nodeps" depends="common.compile-nodeps">
+        <mkdir dir="${build}/jni"/>
+        <javah
+            classpath="${build}/classes"
+            class="org.jax.haplotype.analysis.experimentdesign.EMMAAssociationTest"
+            outputfile="${build}/jni/emma_jni.h"/>
+    </target>
 </project>
