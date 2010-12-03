@@ -15,7 +15,7 @@
  * along with this software.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.jax.haplotype.analysis.experimentdesign;
+package org.jax.haplotype.analysis;
 
 import java.io.Serializable;
 import java.util.Arrays;
@@ -28,7 +28,6 @@ import java.util.Set;
 
 import org.jax.geneticutil.data.PartitionedInterval;
 import org.jax.geneticutil.data.PartitionedIntervalSet;
-import org.jax.haplotype.analysis.StrainBinaryPartitionSignificanceTester;
 
 /**
  * Interface used by haplotype significance tests

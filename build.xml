@@ -17,7 +17,7 @@
         <mkdir dir="${build}/jni"/>
         <javah
             classpath="${build}/classes"
-            class="org.jax.haplotype.analysis.experimentdesign.EMMAAssociationTest"
+            class="org.jax.haplotype.analysis.EMMAAssociationTest"
             outputfile="${build}/jni/emma_jni.h"/>
     </target>
 </project>

@@ -15,7 +15,7 @@
  * along with this software.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.jax.haplotype.analysis.experimentdesign;
+package org.jax.haplotype.analysis;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -27,7 +27,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import org.jax.haplotype.analysis.PhylogenySignificanceTester;
 import org.jax.haplotype.phylogeny.data.PhylogenyInterval;
 import org.jax.haplotype.phylogeny.data.PhylogenyTestResult;
 import org.jax.haplotype.phylogeny.data.PhylogenyTreeEdgeWithRealValue;

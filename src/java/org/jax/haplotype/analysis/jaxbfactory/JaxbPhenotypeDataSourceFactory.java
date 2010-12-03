@@ -20,9 +20,9 @@ package org.jax.haplotype.analysis.jaxbfactory;
 import java.io.File;
 import java.io.IOException;
 
-import org.jax.haplotype.analysis.experimentdesign.MPDIndividualPhenotypeDataSource;
-import org.jax.haplotype.analysis.experimentdesign.PhenotypeDataSource;
-import org.jax.haplotype.analysis.experimentdesign.SexFilter;
+import org.jax.haplotype.analysis.MPDIndividualPhenotypeDataSource;
+import org.jax.haplotype.analysis.PhenotypeDataSource;
+import org.jax.haplotype.analysis.SexFilter;
 import org.jax.haplotype.jaxbgenerated.MpdIndividualPhenotypeDataSourceType;
 import org.jax.haplotype.jaxbgenerated.PhenotypeDataSourceType;
 import org.jax.haplotype.jaxbgenerated.SexConstraintType;

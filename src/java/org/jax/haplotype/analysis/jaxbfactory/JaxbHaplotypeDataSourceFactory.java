@@ -21,8 +21,8 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.jax.haplotype.analysis.experimentdesign.GenotypeInferenceHaplotypeDataSource;
-import org.jax.haplotype.analysis.experimentdesign.HaplotypeDataSource;
+import org.jax.haplotype.analysis.GenotypeInferenceHaplotypeDataSource;
+import org.jax.haplotype.analysis.HaplotypeDataSource;
 import org.jax.haplotype.data.GenomeDataSource;
 import org.jax.haplotype.data.JaxbGenomeDataSourceFactory;
 import org.jax.haplotype.jaxbgenerated.GenomeDataSourceType;

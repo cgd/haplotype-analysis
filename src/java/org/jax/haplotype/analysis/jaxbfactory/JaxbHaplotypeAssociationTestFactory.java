@@ -19,9 +19,9 @@ package org.jax.haplotype.analysis.jaxbfactory;
 
 import java.io.IOException;
 
-import org.jax.haplotype.analysis.experimentdesign.HaplotypeAssociationTest;
-import org.jax.haplotype.analysis.experimentdesign.HaplotypeDataSource;
-import org.jax.haplotype.analysis.experimentdesign.PhenotypeDataSource;
+import org.jax.haplotype.analysis.HaplotypeAssociationTest;
+import org.jax.haplotype.analysis.HaplotypeDataSource;
+import org.jax.haplotype.analysis.PhenotypeDataSource;
 import org.jax.haplotype.jaxbgenerated.HaplotypeAssociationTestType;
 import org.jax.haplotype.jaxbgenerated.HaplotypeDataSourceType;
 import org.jax.haplotype.jaxbgenerated.PhenotypeDataSourceType;

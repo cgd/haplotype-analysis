@@ -15,7 +15,7 @@
  * along with this software.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.jax.haplotype.analysis.experimentdesign;
+package org.jax.haplotype.analysis;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -25,7 +25,6 @@ import java.util.Map;
 import java.util.Set;
 
 import org.jax.geneticutil.data.MultiPartitionedInterval;
-import org.jax.haplotype.analysis.StrainMultiPartitionSignificanceTester;
 import org.jax.haplotype.data.MultiGroupHaplotypeDataSource;
 
 /**

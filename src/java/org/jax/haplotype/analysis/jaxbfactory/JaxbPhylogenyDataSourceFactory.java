@@ -17,8 +17,8 @@
 
 package org.jax.haplotype.analysis.jaxbfactory;
 
-import org.jax.haplotype.analysis.experimentdesign.GenotypeInferencePhylogenyDataSource;
-import org.jax.haplotype.analysis.experimentdesign.PhylogenyDataSource;
+import org.jax.haplotype.analysis.GenotypeInferencePhylogenyDataSource;
+import org.jax.haplotype.analysis.PhylogenyDataSource;
 import org.jax.haplotype.data.GenomeDataSource;
 import org.jax.haplotype.data.JaxbGenomeDataSourceFactory;
 import org.jax.haplotype.jaxbgenerated.GenomeDataSourceType;

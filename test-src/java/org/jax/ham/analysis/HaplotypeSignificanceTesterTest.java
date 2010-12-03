@@ -32,9 +32,9 @@ import java.util.Map.Entry;
 
 import org.jax.geneticutil.data.PartitionedInterval;
 import org.jax.geneticutil.data.PartitionedIntervalSet;
+import org.jax.haplotype.analysis.MPDIndividualStrainPhenotypeParser;
+import org.jax.haplotype.analysis.SexFilter;
 import org.jax.haplotype.analysis.StrainBinaryPartitionSignificanceTester;
-import org.jax.haplotype.analysis.experimentdesign.MPDIndividualStrainPhenotypeParser;
-import org.jax.haplotype.analysis.experimentdesign.SexFilter;
 import org.jax.haplotype.data.ChromosomeDataSource;
 import org.jax.haplotype.data.CommaSeparatedChromosomeDataSource;
 import org.jax.haplotype.inference.HaplotypeEquivalenceClassCreator;

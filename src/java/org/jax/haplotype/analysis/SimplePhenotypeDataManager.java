@@ -25,7 +25,6 @@ import java.util.logging.Logger;
 
 import javax.xml.bind.JAXBContext;
 
-import org.jax.haplotype.analysis.experimentdesign.PhenotypeDataSource;
 import org.jax.haplotype.analysis.jaxbfactory.JaxbPhenotypeDataSourceFactory;
 import org.jax.haplotype.jaxbgenerated.PhenotypeDataSourceType;
 import org.jax.haplotype.jaxbgenerated.PhenotypeDataSources;

@@ -33,7 +33,6 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.jax.haplotype.analysis.experimentdesign.PhenotypeDataSource;
 import org.jax.haplotype.data.GenomeDataSource;
 import org.jax.haplotype.inference.CachingGenomeDataManager;
 import org.jax.haplotype.inference.CachingPhylogenyDataManager;
