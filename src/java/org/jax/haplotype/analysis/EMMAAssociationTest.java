@@ -46,6 +46,7 @@ import org.jax.util.io.CommonFlatFileFormat;
 import org.jax.util.io.FlatFileReader;
 import org.jax.util.io.IllegalFormatException;
 import org.jax.util.math.StatisticUtilities;
+import org.jax.util.nativeutil.NativeLibraryUtilities;
 
 /**
  * For performing an association test using native EMMA library
@@ -59,7 +60,7 @@ public class EMMAAssociationTest
     
     static
     {
-        System.loadLibrary("emma");
+        NativeLibraryUtilities.loadNativeLibrary("emma");
     }
     
     /**
